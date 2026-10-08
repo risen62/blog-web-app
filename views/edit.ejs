@@ -1,0 +1,6 @@
+<link rel="stylesheet" href="/styles/styles.css">
+<form action = "/edit/<%= id %>" method="post" class="edit-post-form">
+  <input type="text" name="editedTitle"id = "title" value="<%= title %>" />
+  <textarea name="editedContent" id = "contentid"><%= content %></textarea>
+  <button type="submit" class="new-post-button">Save Changes.</button>
+</form>

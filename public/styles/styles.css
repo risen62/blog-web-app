@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.create-post{
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.create{
+    text-align: center;
+}
+
+.post-item{
+    color: white;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+.post-item a{
+    color: white;
+    text-decoration: none;    
+ }
+
+.new-post-form,.edit-post-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#title{
+    width: 70%;
+    height: auto;
+    padding: 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+#contentid{
+    width: 70%;
+    height: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.new-post-button{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.post-title{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.post-content{
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    line-height: 1.6;
+
+}
+.edit-post{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+     margin-bottom: 15px;
+}
+.delete-post{
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+}
+
+  

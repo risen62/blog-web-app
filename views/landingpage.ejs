@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/styles/styles.css">
+<h1>Blog Page</h1>
+
+
+<div class="create">
+   <a href="/new" class="create-post">Click here to create a new post </a>
+
+</div>
+
+
+<% for(let i = 0;i<posts.length;i++){ %>
+    <li class="post-item">
+       <a href="/posts/<%= posts[i].id %>"><%= posts[i].title%></a> 
+    </li>
+    <% } %>

@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/styles/styles.css">
+<h3 class="post-title"><%= title %></h3>
+<p class="post-content"><%= content %></p>
+
+<a href="/edit/<%= id %>" class="edit-post">
+     Click Here to edit post
+</a>
+
+<form action="/delete/<%= id %>" method="post">
+    <button type="submit" class="delete-post">Click here to delete this post</button>
+
+</form>
